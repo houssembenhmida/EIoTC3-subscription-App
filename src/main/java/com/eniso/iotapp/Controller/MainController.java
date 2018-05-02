@@ -94,7 +94,7 @@ public class MainController {
                 excelWriter.writeToFile();
             }
         }
-        return "done";
+        return "Files are saved under /files folder.";
     }
 
     @GetMapping(path = "/")
